@@ -42,3 +42,15 @@ h5,
 h6 {
   overflow-wrap: break-word;
 }
+
+/*
+FEM attribution
+*/
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
