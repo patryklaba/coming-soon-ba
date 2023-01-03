@@ -60,7 +60,8 @@
         </picture>
       </section>
       <section class="content">
-        <h1 class="heading">We're <br>
+        <h1 class="heading">
+          We're <br />
           <span class="accent">coming soon</span>
         </h1>
         <p>
@@ -69,17 +70,27 @@
           launch deals.
         </p>
         <form>
-          <input
-            type="email"
-            name="email-input"
-            id="email-input"
-            placeholder="Email Address"
-          />
-          <button type="submit">
-            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="20"><path fill="none" stroke="#FFF" stroke-width="2" d="M1 1l8.836 8.836L1 18.671"/></svg>
-          </button>
+          <div class="subscribe-field">
+            <input
+              type="email"
+              name="email-input"
+              id="email-input"
+              placeholder="Email Address"
+            />
+            <button>
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="20">
+                <path
+                  fill="none"
+                  stroke="#FFF"
+                  stroke-width="2"
+                  d="M1 1l8.836 8.836L1 18.671"
+                />
+              </svg>
+            </button>
+            <p class="error-message">Please provide a valid email</p>
+          </div>
         </form>
-      </section class="content">
+      </section>
     </main>
     <!-- <footer>
       <p class="attribution">
