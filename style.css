@@ -69,7 +69,9 @@ main {
 nav {
   padding: 2rem;
 }
-
+.hero {
+  margin: 0 auto;
+}
 .content {
   background: var(--grad-primary);
   padding: 4rem 2rem;
@@ -165,3 +167,7 @@ FEM attribution
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+/* DESKTOP */
+
+@media only screen and (min-width: );
