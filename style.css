@@ -159,7 +159,7 @@ form > .subscribe-field {
   color: var(--clr-soft-red);
 }
 
-.subscribe-field > input:not(:focus):not(:placeholder-shown):invalid {
+.subscribe-field > input:not(:placeholder-shown):invalid {
   background: url(images/icon-error.svg);
   background-size: 20px;
   background-repeat: no-repeat;
@@ -222,19 +222,39 @@ FEM attribution
     gap: 1rem;
   }
 
-  .container {
-    max-width: 450px;
-    margin: 0 auto;
-  }
-
-  .container > p {
-    font-size: 1rem;
-    text-align: left;
-  }
-
   .heading {
     font-size: 3.5rem;
     text-align: left;
     letter-spacing: 20px;
+  }
+
+  .content > p {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  form > .subscribe-field {
+    grid-template-columns: 1fr minmax(100px, auto);
+  }
+
+  .subscribe-field > button:hover {
+    transform: scale(1.2);
+  }
+
+  .subscribe-field > input {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .subscribe-field > button {
+    transition: 100ms ease;
+  }
+
+  .subscribe-field > input:not(:placeholder-shown):invalid {
+    background-position: calc(100% - 125px) 50%;
+  }
+
+  .container {
+    max-width: 450px;
+    margin: 0 auto;
   }
 }
